@@ -1,0 +1,60 @@
+.navbar {
+    padding: 20px;
+}
+
+#navbarNav {
+    justify-content: center;
+}
+
+.nav-link:hover,
+.nav-link:active {
+    text-decoration: none;
+    color: red
+}
+
+.navbar-brand:hover,
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.image {
+    filter: grayscale(100%);
+    background-image: url(/starter-code/img/overlay.png);
+    background-attachment: fixed;
+}
+
+.carousel-control-prev{
+justify-content: flex-start;
+}
+.carousel-control-next{
+justify-content: flex-end;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: red;
+    height: 100px;
+    width: 50px;
+    justify-content: center;
+    
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover{
+    background-color: white;
+       
+}
+
+.intro{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100vh;
+   
+    background-color: rgb(214, 67, 67);
+    color:white;
+}
+
